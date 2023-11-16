@@ -1,0 +1,37 @@
+body{background-color: rgb(129, 125, 125);}
+.categories{
+    background-image: url("category background1.jpeg");
+    background-position:center; 
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    
+}
+
+.background{width: 100%; height: 550px;}
+
+h1.heads{font-family: 'Times New Roman', Times, serif; font-weight: bolder; margin-left: 600px; color: azure;}
+
+.text{text-align:start; font-weight: bold; font-style: italic; padding-left: 30px; font-size: large;}
+
+div.second{
+    padding-top: 90px;
+    padding-left: 100px;
+   
+}
+
+div.first{
+    padding-top: 90px;
+    padding-left: 200px;
+}
+#myImage{ width: 40%;}
+#myImage:hover{transform: scale(1.1);}
+
+
+.footer{text-align: center; background-color: rgb(182, 180, 178);}
+
+.card {width: 300px; transition: transform 0.3s ease-in-out;}
+.card:hover {transform: scale(1.05);}
+.card-img-top {width: 100%;height: auto;}
+.card-title{text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.body {padding: 15px;}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>request</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="indexStayle.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+           <img src="logo2.png" alt="Logo" style="width: 20%;">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="request.html">Add your request</a></li>
+                <li class="nav-item"><a class="nav-link" href="About us.html">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact us.html">Contact us</a></li>
+                <li class="nav-item"><a class="nav-link" href="sign up.html">Log in</a></li>
+            </ul>
+        </nav>
+    </div>
+<hr>
+    <h2 style="font-weight: bold; text-align: center; text-decoration: underline;">Post your business in SQU-Market</h2>
+<br/>
+<div class="container mt-5" style="border: thin dotted rgb(255, 255, 249); width: 40%;">
+    <form action="mailto: squmarket5@gmail.com" method="POST">
+        <div class="mb-3 mt-3">
+            <label for="uname">Your Name:</label>
+            <input type="text" class="form-control" name="uname" required>
+        </div>
+        <div class="mb-3">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="business">Name of business:</label>
+            <input type="text" class="form-control" name="business" required>
+        </div>
+        <div class="mb-3">
+            <p>Select Business Category:</p>
+            <label><input type="radio" name="category" value="Food"> Food</label>
+            <label><input type="radio" name="category" value="Service"> Service</label>
+            <label><input type="radio" name="category" value="Fashion"> Fashion</label>
+            <label><input type="radio" name="category" value="Electronics"> Electronics</label>
+        </div>
+        <div class="mb-3">
+            <label for="details">Business Description:</label><br>
+            <textarea name="details" rows="4" cols="50" class="form-control" placeholder="products, prices, etc" required></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="account">How to connect you? and the account. (WhatsApp, Instagram, etc)</label>
+            <input type="text" name="account" class="form-control" required>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Submit</button>
+    </form>
+</div>
+<hr>
+</body>
+<footer>
+<div class="footer">
+    <h3>Find us here !</h3>
+        <div style="margin-top:20px"><img src="location-icon.png" height="20px" width="15px"/><br/>
+            <a href="https://goo.gl/maps/FLWbJeC6pcHjJaXG6">SQU - COLLEGE OF SCIENCE</a></div><br/>
+        <div><p><img src="phone-icon.png" height="20px" width="15px"/><br/>+968 91111111</p></div>
+        <div style="margin-bottom:20px"><p><img src="email-icon.png" height="15px" width="20px"/><br/><a 
+            href="mailto: squmarket5@gmail.com" >squmarket5@gmail.com</a></p></div>
+</div>
+</footer>
+</html>
