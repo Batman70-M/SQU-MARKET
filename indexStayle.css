@@ -13,7 +13,7 @@ body{background-color: rgb(129, 125, 125);}
 h1.heads{font-family: 'Times New Roman', Times, serif; font-weight: bolder; margin-left: 600px; color: azure;}
 
 .text{text-align:start; font-weight: bold; font-style: italic; padding-left: 30px; font-size: large;}
-
+p span{font-weight: bold; font-style: italic;}
 div.second{
     padding-top: 90px;
     padding-left: 100px;
