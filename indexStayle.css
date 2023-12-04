@@ -35,3 +35,14 @@ div.first{
 .card-img-top {width: 100%;height: auto;}
 .card-title{text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 .body {padding: 15px;}
+
+.button{ width: 3cm; transition: transform 0.3s ease-in-out; height: 1cm; background-color: darkorange; color: white; border-radius: 20px; border: 2px;}
+.button:hover{transform:  scale(1.05);}
+
+.cart{background-color: white; border-radius: 0.2cm;}
+.cartBorder{margin: 0.5cm; border: 2cm;}
+
+.note{background-color: beige; border-radius: 0.2cm; text-align: center;}
+
+.tableFormat{background-color: white; border-radius: 0.2cm;}
+.tableBorder{margin: 0.5cm; border: 2cm;}
